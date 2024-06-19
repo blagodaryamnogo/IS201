@@ -1,0 +1,102 @@
+.links {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    font-weight: 600;
+}
+.resumelistheading{
+    font-weight: bold;
+    color: rgb(24, 66, 145);
+}
+.resumesubheaders{
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+}
+.positions{
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(68, 76, 89);
+}
+.resumebody{
+    font-weight: 200;
+    color: black;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    /* The background image and gradient overlay */
+    background: 
+        linear-gradient(to bottom, rgb(255, 255, 255), rgba(162, 150, 150, 0.493)), /* Gradient to fade to transparent */
+        url('../assets/img/background.jpg'); /* Path to your local image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+/* Override styles for .masthead specifically */
+.masthead.interests {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 30%), url("../assets/img/paragliding.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    color: white; /* Adjust text color if necessary */
+    text-align: center; /* Center align text */
+}
+
+.masthead.interests h1 {
+    font-weight: bold;
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 1rem;
+}
+
+.masthead.interests p {
+    font-size: 1.5rem; /* Adjust as needed */
+    margin-bottom: 2rem;
+}
+.masthead.contact {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 20%), url("../assets/img/sailing\ 2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    color: white; /* Adjust text color if necessary */
+    text-align: center; /* Center align text */
+}
+
+.masthead.contact h1 {
+    font-weight: bold;
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 1rem;
+}
+
+.masthead.contact p {
+    font-size: 1.5rem; /* Adjust as needed */
+    margin-bottom: 2rem;
+}
+.colorblock {
+    color: #fff !important;
+}
+.portfolio-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* Adjust this percentage to match the desired aspect ratio (4:3 ratio example) */
+}
+
+.img-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
